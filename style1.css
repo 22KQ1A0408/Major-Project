@@ -1,0 +1,49 @@
+.main {
+    background-image: url("Images.html/Background\ register.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding:  100px 0px;
+}
+.form-box{
+    height:500px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    border: 1px solid white;
+
+}
+.form-box input {
+    border-radius: 10px;
+
+}
+.form-box input:focus{
+    box-shadow: 0 0 0;
+    border:1px solid #f6288c;
+}
+.form-box select {
+    border-radius: 10px;
+}
+.form-box select:focus{
+    box-shadow: 0 0 0;
+    border:1px solid #f6288c;
+}
+.input-group-text{
+    border-radius: 0px 10px 10px 0px;
+}
+.register-btn{
+    background-image: linear-gradient(to right, #63118b, #f80f88, #f80f88);
+    border:none;
+    border-radius: 10px;
+    color: white;
+}
+.link{
+    text-decoration: none;
+    color:#680f88;
+}
+.link:hover{
+    color:#680f88;
+}
+h2{
+    color:#f6288c;
+
+}
